@@ -5,10 +5,13 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "standard-version": "^9.5.0"
   },
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/zk182/standard-version/issues"
   },
-  "homepage": "https://github.com/zk182/standard-version#readme"
+  "homepage": "https://github.com/zk182/standard-version#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
