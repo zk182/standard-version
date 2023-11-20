@@ -1,0 +1,24 @@
+{
+  "name": "nico-standard-version",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  },
+  "scripts": {
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zk182/standard-version.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zk182/standard-version/issues"
+  },
+  "homepage": "https://github.com/zk182/standard-version#readme"
+}
