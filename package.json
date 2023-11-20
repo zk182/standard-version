@@ -5,13 +5,17 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "@commitlint/cli": "^18.4.2",
+    "@commitlint/config-conventional": "^18.4.2",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
     "standard-version": "^9.5.0"
   },
   "scripts": {
     "release": "standard-version",
-    "commit": "cz"
+    "commit": "cz",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
